@@ -11,7 +11,9 @@ const Home = () => {
 
   return (
     <main className="px-[5%] mt-10 mb-16 flex-grow">
-      <h2 className="titulo text-3xl">Produtos em Destaque</h2>
+      <h2 className="titulo text-3xl text-orange-500 font-bold -mt-6 mb-2">
+        Produtos em Destaque
+      </h2>
 
       <section className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
         {esportes.map((esporte) => (
